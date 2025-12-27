@@ -42,3 +42,39 @@ This project simulates a **simplified document search engine** by transforming t
 ---
 
 ## 📂 Project Structure
+Mini-Search-Engine/
+│── doc1.txt
+│── doc2.txt
+│── doc3.txt
+│── search_engine.py
+│── README.md
+
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/tanujaboyana/Mini-Search-Engine.git
+cd Mini-Search-Engine
+
+
+### 2️⃣ Install dependencies
+pip install scikit-learn
+
+### 3️⃣ Run the program
+python search_engine.py
+
+### 4️⃣ Enter a search query
+Enter search query: artificial intelligence
+
+
+### Sample Output
+Enter search query: artificial intelligence
+Top Matching Documents:
+doc3.txt  ->  Score: 0.3628
+doc1.txt  ->  Score: 0.2472
+doc2.txt  ->  Score: 0.1267
+
+
